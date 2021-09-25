@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import IndexView, Article_1
+from .views import IndexView, Page1_1
 
 urlpatterns = [
     path('', IndexView.as_view()),
-    path('article_1/', Article_1.as_view()),
+    path('page1.1/', Page1_1.as_view()),
     ]
